@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "db:seed": "dotenv -e .env -- tsx prisma/seed.ts",
+    "prisma:generate": "prisma generate",
     "build": "npm run prisma:generate && next build",
     "start": "next start",
     "lint": "next lint"
