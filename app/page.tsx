@@ -9,9 +9,13 @@ const NotificationPanel = dynamic(
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-4xl font-bold mb-8">Notification Panel Demo</h1>
-      <NotificationPanel />
+    <main className="relative min-h-screen p-24">
+      <h1 className="text-4xl font-bold mb-8 text-center">
+        Notification Panel Demo
+      </h1>
+      <div className="absolute top-4 right-4">
+        <NotificationPanel />
+      </div>
     </main>
   );
 }

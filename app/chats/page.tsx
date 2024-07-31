@@ -7,11 +7,11 @@ const NotificationPanel = dynamic(
   }
 );
 
-export default function ChartsPage() {
+export default function ChatsPage() {
   return (
     <main className="relative min-h-screen p-24">
       <h1 className="text-4xl font-bold mb-8 text-center">
-        Notification Panel Demo / Chart
+        Notification Panel Demo / Chat
       </h1>
       <div className="absolute top-4 right-4">
         <NotificationPanel />

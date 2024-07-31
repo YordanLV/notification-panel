@@ -42,7 +42,7 @@ export default function NotificationPanel() {
             </Dialog.Portal>
           </Dialog.Root>
         </div>
-        <div className="space-y-2">
+        <div className="space-y-2 overflow-y-scroll h-[420px]">
           {notifications.map((notification) => (
             <NotificationItem
               key={notification.id}

@@ -52,7 +52,7 @@ export default function CreateNotificationForm({
         <select
           id="type"
           {...register("type")}
-          className="w-full p-2 border rounded focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-2 border rounded text-black focus:ring-blue-500 focus:border-blue-500"
         >
           <option value="">Select a type</option>
           <option value="Platform update">Platform update</option>
@@ -73,7 +73,7 @@ export default function CreateNotificationForm({
           id="message"
           type="text"
           {...register("message")}
-          className="w-full p-2 border rounded focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-2 border rounded text-black focus:ring-blue-500 focus:border-blue-500"
           placeholder="Enter notification message"
         />
         {errors.message && (
@@ -89,7 +89,7 @@ export default function CreateNotificationForm({
           id="userId"
           type="text"
           {...register("userId")}
-          className="w-full p-2 border rounded focus:ring-blue-500 focus:border-blue-500"
+          className="w-full p-2 border rounded text-black focus:ring-blue-500 focus:border-blue-500"
           placeholder="Enter user ID"
         />
         {errors.userId && (
@@ -106,7 +106,7 @@ export default function CreateNotificationForm({
             id="userName"
             type="text"
             {...register("userName")}
-            className="w-full p-2 border rounded focus:ring-blue-500 focus:border-blue-500"
+            className="w-full p-2 border rounded text-black focus:ring-blue-500 focus:border-blue-500"
             placeholder="Enter user name"
           />
         </div>
@@ -121,7 +121,7 @@ export default function CreateNotificationForm({
             id="releaseNumber"
             type="text"
             {...register("releaseNumber")}
-            className="w-full p-2 border rounded focus:ring-blue-500 focus:border-blue-500"
+            className="w-full p-2 border rounded text-black focus:ring-blue-500 focus:border-blue-500"
             placeholder="Enter release number"
           />
         </div>
