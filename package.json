@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "db:seed": "dotenv -e .env -- tsx prisma/seed.ts",
+    "db:seed": "node prisma/seed.js",
     "prisma:generate": "prisma generate",
     "build": "npm run prisma:generate && next build",
+    "migrate:prod": "node prisma/migrate-prod.js",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
