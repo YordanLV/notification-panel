@@ -63,7 +63,7 @@ export default function NotificationItem({ notification }: NotificationProps) {
 
   return (
     <div
-      className={`p-1 rounded-lg text-black cursor-pointer ${getBackgroundColor()} ${
+      className={`p-2 rounded-lg text-black cursor-pointer ${getBackgroundColor()} ${
         notification.isRead ? "opacity-50" : ""
       }`}
       onClick={handleClick}
