@@ -27,7 +27,7 @@ export default function NotificationPanel() {
       </DropdownMenu.Trigger>
       <DropdownMenu.Content className="bg-white shadow-lg rounded-lg p-4 w-80">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-lg font-semibold">Notifications</h2>
+          <h2 className="text-lg text-black font-semibold">Notifications</h2>
           <Dialog.Root open={isModalOpen} onOpenChange={setIsModalOpen}>
             <Dialog.Trigger asChild>
               <button className="bg-blue-500 text-white px-3 py-1 rounded">

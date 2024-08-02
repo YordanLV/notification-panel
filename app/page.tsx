@@ -30,11 +30,11 @@ export default function Home() {
           </li>
           <li>
             <span className="text-green-400">Comment Tags</span>: Stay connected
-            with conversations you're mentioned in.
+            with conversations you&apos;re mentioned in.
           </li>
           <li>
             <span className="text-yellow-400">Access Grants</span>: Be notified
-            when you're given access to new resources.
+            when you&apos;re given access to new resources.
           </li>
           <li>
             <span className="text-purple-400">Workspace Joins</span>: Know when
